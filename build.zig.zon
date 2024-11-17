@@ -1,0 +1,11 @@
+.{
+    .name = "hissybitz",
+    .version = "0.0.1",
+    .dependencies = .{
+        .hissylogz = .{
+            .url = "https://github.com/hissyfit-dev/hissylogz/archive/refs/tags/v0.0.5.tar.gz",
+            .hash = "12203cd8755310a1e9d27a598d939f63d35d0d2632266a8ada35b8b890ef7426ae37",
+        },
+    },
+    .paths = .{ "src", "build.zig", "build.zig.zon", "README.md", "LICENSE.md", "doc" },
+}
